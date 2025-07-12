@@ -12,7 +12,7 @@ const requestsRoute = require("./routes/requestsRoute");
 app.use(
   cors({
     origin: [
-      "https://ewallet-app-git-master-amalthomas1234s-projects.vercel.app",
+      "*",
     ],
 
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
